@@ -4,7 +4,6 @@ import java.util.stream.Collectors;
 
 /**
  * A Node in a binary tree.
- * We extend AbstractTreeNode for pretty printing purposes.
  */
 class BSTNode
 {
