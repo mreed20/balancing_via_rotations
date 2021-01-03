@@ -14,9 +14,8 @@ empirically verifies these theorems.
 I extensively used property-based testing (specifically, [jqwik](https://jqwik.net)) to
 test the functional correctness of my binary search tree implementation and my
 implementations of the tree balancing algorithms. Being able able to specify high-level
-properties that methods must have without concern for generating input data was a boon
-for development, and uncovered many bugs.
-
+properties that methods must have without needing to think about how to generate input
+data, was a boon for development and helped uncovered many bugs.
 
 This was the final project for the class Analysis of Algorithms at George
 Mason University.
