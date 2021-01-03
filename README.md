@@ -1,22 +1,22 @@
 # Comparing the costs of rotation-based tree balancing algorithms
 
-## Abstract
-
 This project implements three algorithms for completely balancing a
-binary search tree via rotations, as described in Luccio et al.'s
-*[Complete Balancing via
-Rotation](http://web.science.mq.edu.au/~bmans/BMans/Papers/LMMP_CJ2016.pdf)*.
-These algorithms take an arbitrary binary tree *S* and an
-almost-complete binary tree *T*, both containing the same set of keys,
-and performs rotations on *S* until *S* equals *T*. The authors claim in
-Theorem’s 1 through 3 that these algorithms transforms *S* to *T* in an
-exact or upper-bounded number of rotations. This project empirically
-verifies these theorems.
+binary search tree via rotations, as described in the paper *[Complete
+Balancing via
+Rotation](http://web.science.mq.edu.au/~bmans/BMans/Papers/LMMP_CJ2016.pdf)*
+by Luccio et al. These algorithms take an arbitrary binary tree *S* and
+an almost-complete binary tree *T*, both containing the same set of
+keys, and performs rotations on *S* until *S* equals *T*. The authors
+claim in Theorem’s 1 through 3 that these algorithms transforms *S* to
+*T* in an exact or upper-bounded number of rotations. This project
+empirically verifies these theorems.
+
+Final project for the class CS583 (Analysis of Algorithms) at George
+Mason University.
 
 ## Assumptions
 
-When implementing the algorithms described in the paper, I made the following
-assumptions:
+I made the following assumptions when implementing the algorithms:
 
 -   In Theorem 3, I interpreted the *g* term as being the number of
     maximally equivalent subtrees which did not equal each other,
