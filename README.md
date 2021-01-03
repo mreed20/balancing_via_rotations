@@ -11,7 +11,14 @@ claim in Theorem’s 1 through 3 that these algorithms transforms *S* to
 *T* in an exact or upper-bounded number of rotations. This project
 empirically verifies these theorems.
 
-Final project for the class CS583 (Analysis of Algorithms) at George
+I extensively use property-based testing (specifically, [jqwik](https://jqwik.net)) to
+test the functional correctness of my binary search tree implementation and my
+implementations of the tree balancing algorithms. Being able able to specify high-level
+properties that methods must have without concern for generating input data was a boon
+for development, and uncovered many bugs.
+
+
+This was the final project for the class Analysis of Algorithms at George
 Mason University.
 
 ## Assumptions
