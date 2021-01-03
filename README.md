@@ -15,7 +15,8 @@ I extensively used property-based testing (specifically, [jqwik](https://jqwik.n
 test the functional correctness of my binary search tree implementation and my
 implementations of the tree balancing algorithms. Being able able to specify high-level
 properties that methods must have without needing to manually generate input data helped
-uncovered many bugs.
+uncovered many bugs. See [BinaryTreeTests.java](src/test/java/BinaryTreeTest.java) for more
+information.
 
 This was the final project for the class Analysis of Algorithms at George
 Mason University.
