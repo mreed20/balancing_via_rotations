@@ -43,7 +43,7 @@ was off by exactly one.
 Theorem 2 did not predict the exact number of rotations performed by
 *A*<sub>2</sub>, although it was always within 2% of the actual number
 of rotations. I found that when I removed the
-*c*<sub>*S*</sub>(*r**o**o**t*<sub>*T*</sub>) term, the expected number
+*c*<sub>*S*</sub>(*root*<sub>*T*</sub>) term, the expected number
 of rotations was closer to the actual number more consistently. This may
 be due to a bug I failed to find.
 
