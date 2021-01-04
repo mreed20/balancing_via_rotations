@@ -12,10 +12,10 @@ claim in Theorem’s 1 through 3 that these algorithms transforms *S* to
 empirically verifies these theorems.
 
 I extensively used property-based testing (specifically, [jqwik](https://jqwik.net)) to
-test the functional correctness of my binary search tree implementation and my
-implementations of the tree balancing algorithms. Being able able to specify high-level
-properties that methods must have, without needing to manually generate input data, helped
-uncovered many bugs. See [BinaryTreeTests.java](src/test/java/BinaryTreeTest.java).
+test the functional correctness of my binary search tree and tree balancing algorithm
+implementations. Being able able to specify high-level properties that methods must have,
+without needing to manually generate input data, helped uncovered many bugs.
+See [BinaryTreeTests.java](src/test/java/BinaryTreeTest.java).
 
 This was the final project for the class Analysis of Algorithms at George
 Mason University.
